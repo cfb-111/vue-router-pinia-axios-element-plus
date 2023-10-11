@@ -5,7 +5,7 @@ import TheWelcome from './components/TheWelcome.vue'
 
 <template>
   <RouterLink to="/">首页</RouterLink>
-  <RouterLink to="/about">用户中心</RouterLink>
+  <RouterLink to="/login">用户中心</RouterLink>
   <div>
    <!-- 页面组件的占位 iframe -->
    <RouterView></RouterView> 
